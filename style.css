@@ -58,7 +58,7 @@ background: linear-gradient(to bottom, #F09819, #FF512F); /* W3C, IE 10+/ Edge, 
 }
 
 #Home{
-    width: 100vw;
+    width: 100%;
     min-height: 90vh;
     padding: 7rem ;
 }
@@ -119,7 +119,7 @@ background: linear-gradient(to bottom, #F09819, #FF512F); /* W3C, IE 10+/ Edge, 
 }
 u{
     text-decoration-color:var(--orange) ;
-    text-underline-offset: 0.5rem;
+    text-underline-offset: 0.7rem;
 }
 
 #middleContainer{
@@ -166,4 +166,80 @@ u{
     width:35px;
     height:35px;
     object-fit: cover;
+}
+
+.Projects{
+    padding: 5rem 7rem;
+}
+
+.projectContainer{
+    width: 100%;
+}
+
+.Project1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    background-color: var(--bg-secondary);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#projectHeading{
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+#eduMateImage{
+    width: 100%;
+    min-height: 200px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+}
+
+#projectDescription{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#projectDescription p{
+    color: var(--text-secondary);
+}
+#projectDescription h3{
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+
+#techStack img{
+    width:25px;
+    height:25px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.buttons a{
+    border: solid 1px var(--bg-primary);
+    text-decoration: none;
+    color: var(--text-primary);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--bg-primary);
+}
+
+.buttons{
+    margin-bottom: 0.7rem;
+}
+
+.buttons a:hover{
+   background: #FF512F;  
+    background: -webkit-linear-gradient(to bottom, #F09819, #FF512F);  
+    background: linear-gradient(to bottom, #F09819, #FF512F); 
+    color: var(--bg-primary);
+    border: solid black 1px;
+    box-shadow: 1px 1px 5px 1px var(--bg-primary);
+
 }
